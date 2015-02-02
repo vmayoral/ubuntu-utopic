@@ -1,0 +1,25 @@
+/*
+ * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+
+&ocp {
+	/* i2c1 */
+	P9_18_pinmux {
+		mode = "i2c";
+	};
+	P9_17_pinmux {
+		mode = "i2c";
+	};
+};
+
+&i2c1 {
+	status = "okay";
+	pinctrl-names = "default";
+	/* pinctrl-0 = <>; */
+	pinctrl-0 = <&i2c1_pins>;
+	clock-frequency = <100000>;
+};

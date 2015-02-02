@@ -1,0 +1,41 @@
+/*
+ * Copyright (C) 2012 Texas Instruments Incorporated - http://www.ti.com/
+ *
+ * This program is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License version 2 as
+ * published by the Free Software Foundation.
+ */
+
+&ocp {
+	epwmss0 {
+		status = "okay";
+	};
+
+	ehrpwm0 {
+		status = "okay";
+	};
+
+	ecap0 {
+		status = "okay";
+	};
+
+	epwmss1 {
+		status = "okay";
+	};
+
+	ehrpwm1 {
+		status = "okay";
+	};
+
+	epwmss2 {
+		status = "okay";
+	};
+
+	ehrpwm2 {
+		status = "okay";
+	};
+
+	ecap2 {
+		status = "okay";
+	};
+};
